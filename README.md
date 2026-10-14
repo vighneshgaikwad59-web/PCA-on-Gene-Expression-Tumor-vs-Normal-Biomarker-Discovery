@@ -38,6 +38,8 @@ Longer bar = bigger effect on PC1. Red = positive loading, green = negative load
 
 ![Top PC1 genes](results/top_pc1_genes.png)
 
+<img width="902" height="777" alt="image" src="https://github.com/user-attachments/assets/0783edd2-326b-490f-8110-09bb09c92af7" />
+
 ### 3. CSV file
 `results/top_pc1_genes.csv` has the same top genes with their loading values.
 
@@ -53,4 +55,6 @@ PC1 explains only about 3.5% of the variance, yet Tumor and Normal samples still
 Python · NumPy · pandas · scikit-learn · Matplotlib
 ## Complete Workflow
 
-![PCA Gene Expression Workflow](images/pca_workflow.png)
+
+
+
