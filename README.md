@@ -1,4 +1,4 @@
-# 🧬 PCA on Gene Expression: Tumor vs Normal + Biomarker Discovery
+# 🧬 PCA on Gene Expression: Tumor vs Normal
 
 This project uses PCA to compress high-dimensional gene expression data (500 genes) into 2D, so that **Tumor** and **Normal** samples can be told apart. It then uses the **PC1 loadings** to find candidate biomarker genes.
 
@@ -51,3 +51,6 @@ PC1 explains only about 3.5% of the variance, yet Tumor and Normal samples still
 
 ## 🛠️ Tech stack
 Python · NumPy · pandas · scikit-learn · Matplotlib
+## Complete Workflow
+
+![PCA Gene Expression Workflow](images/pca_workflow.png)
