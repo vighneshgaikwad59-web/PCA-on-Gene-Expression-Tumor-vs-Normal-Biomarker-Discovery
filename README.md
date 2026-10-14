@@ -27,9 +27,19 @@ python pca_gene_expression.py --input my_expression.csv   # rows = samples, colu
 ```
 
 ## 📊 Output
-- `results/pca_overview.png`: scree plot + sample scatter plot
-- `results/top_pc1_genes.png`: top 15 genes driving PC1
-- `results/top_pc1_genes.csv`
+
+### 1. Scree plot + sample scatter plot
+**Left:** how much variance each PC explains. **Right:** every dot is one sample. Tumor (red) and Normal (green) separate along PC1.
+
+![PCA overview](results/pca_overview.png)
+
+### 2. Top 15 genes driving PC1
+Longer bar = bigger effect on PC1. Red = positive loading, green = negative loading. These are the candidate biomarker genes.
+
+![Top PC1 genes](results/top_pc1_genes.png)
+
+### 3. CSV file
+`results/top_pc1_genes.csv` has the same top genes with their loading values.
 
 ## 🔬 Key insight
 PC1 explains only about 3.5% of the variance, yet Tumor and Normal samples still separate cleanly. This is because the signal sits in just a few genes. The top PC1 loading genes (GENE_001–020) are exactly the ones that were truly different in the simulation.
