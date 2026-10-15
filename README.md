@@ -53,7 +53,8 @@ PC1 explains only about 3.5% of the variance, yet Tumor and Normal samples still
 
 ## 🛠️ Tech stack
 Python · NumPy · pandas · scikit-learn · Matplotlib
-## Complete Workflow
+
+
 
 
 
